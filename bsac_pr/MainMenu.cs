@@ -31,8 +31,8 @@ namespace bsac_pr
 
         private void button_teach_Click(object sender, EventArgs e) // Переход к форме "Преподаватель"
         {
-            Form MainTeach = new MainTeach();
-            MainTeach.Show(); this.Hide();
+            Form login = new login();
+            login.ShowDialog(); this.Hide();
         }
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e) // Открывает окно "О программе"
